@@ -1,0 +1,4 @@
+br/com/mateus/yourtip/BuildConfig.java
+ br.com.mateus.yourtip.BuildConfig
+br/com/mateus/yourtip/databinding/ActivityMainBinding.java
+ br.com.mateus.yourtip.databinding.ActivityMainBinding

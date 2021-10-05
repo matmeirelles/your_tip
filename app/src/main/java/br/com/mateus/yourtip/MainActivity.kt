@@ -10,57 +10,49 @@ import kotlin.math.ceil
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tipCalculateButton.setOnClickListener {
-            if (binding.costOfService.text != null) {
-                calculateTip()
-            } else {
-                Toast.makeText(this, "Informar valor da conta", Toast.LENGTH_SHORT).show()
-            }
-        }
-
+        binding.tipCalculateButton.setOnClickListener { calculateTip() }
     }
 
-    fun calculateTip() {
+    private fun calculateTip() {
         //acessa o valor
-        val costInString: String = binding.costOfService.text.toString()
-        val cost: BigDecimal? = costInString.toBigDecimalOrNull()
+        val cost: Double? = binding.costOfServiceEditText.text
+            .toString()
+            .toDoubleOrNull()
 
         if (cost == null) {
-            binding.tipResult.text = " "
+            binding.tipResult.text = displayTip(0.0)
             return Toast.makeText(this, "Informe o custo do serviço", Toast.LENGTH_SHORT).show()
         }
 
         //acessa o RadioButton selecionado, e define a porcentagem
-        val selectedId: Int = binding.tipOptions.checkedRadioButtonId
-        val tipPercentage: BigDecimal = when (selectedId) {
-            R.id.option_fifteen_percent -> "0.15".toBigDecimal()
-            R.id.option_ten_percent -> "0.10".toBigDecimal()
-            else -> "0.08".toBigDecimal()
+        val tipPercentage: Double = when (binding.tipOptions.checkedRadioButtonId) {
+            R.id.option_fifteen_percent -> 0.15
+            R.id.option_ten_percent -> 0.10
+            else -> 0.08
         }
 
         //calcula o valor da gorjeta
-        var tip: BigDecimal = cost * tipPercentage
-        var tipDouble: Double = tip.toDouble()
-
-        //acessa a opção de arredondar para cima
-        val roundUp: Boolean = binding.roundUpSwitch.isChecked
+        var tip: Double = cost * tipPercentage
 
         //arredonda valor se tiver marcado
-        if (roundUp) {
-            tipDouble = ceil(tipDouble)
-            tip = tipDouble.toBigDecimal()
+        if (binding.roundUpSwitch.isChecked) {
+            tip = ceil(tip)
         }
 
         //formata para moeda configurada no sistema
-        val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
+        val formattedTip = displayTip(tip)
         binding.tipResult.text = getString(R.string.tip_amount, formattedTip)
+    }
+
+    fun displayTip(tip: Double): String {
+        return NumberFormat.getCurrencyInstance().format(tip)
     }
 }
 

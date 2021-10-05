@@ -1088,6 +1088,9 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
+color blue_dark
+color blue_light
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1238,6 +1241,9 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color primary_dark_material_dark
 color primary_dark_material_light
+color primary_green
+color primary_green_dark
+color primary_green_light
 color primary_material_dark
 color primary_material_light
 color primary_text_default_material_dark
@@ -1250,6 +1256,9 @@ color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
+color secondary_green
+color secondary_green_dark
+color secondary_green_light
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -1267,6 +1276,9 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
+color yellow_dark
+color yellow_light
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1424,6 +1436,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen margin
 dimen material_bottom_sheet_max_width
 dimen material_clock_display_padding
 dimen material_clock_face_margin_top
@@ -1459,6 +1472,7 @@ dimen material_textinput_min_width
 dimen material_time_picker_minimum_screen_height
 dimen material_time_picker_minimum_screen_width
 dimen material_timepicker_dialog_buttons_margin_top
+dimen min_text_height
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -1792,6 +1806,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_round_up
+drawable ic_service
+drawable ic_store
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1960,6 +1977,7 @@ id continuousVelocity
 id coordinator
 id cos
 id cost_of_service
+id cost_of_service_edit_text
 id counterclockwise
 id currentState
 id custom
@@ -2035,7 +2053,10 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id icon
+id icon_cost_of_service
 id icon_group
+id icon_round_up
+id icon_service_question
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2264,7 +2285,6 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id tip_calculate_button
-id tip_image
 id tip_options
 id tip_result
 id title
@@ -2497,12 +2517,14 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string cost_of_service_label
 string cost_service
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string good_service
+string hand_receiving_coins
 string hide_bottom_view_on_scroll_behavior
 string how_was_the_service
 string icon_content_description
@@ -3294,6 +3316,9 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style Widget_YouTip_TextView
+style Widget_YourTip_CompoundButton_RadioButton
+style Widget_YourTip_CompoundButton_Switch
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

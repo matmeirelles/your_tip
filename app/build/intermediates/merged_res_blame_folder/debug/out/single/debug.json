@@ -1,59 +1,39 @@
 [
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable_ic_store.xml.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable/ic_store.xml"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable_ic_round_up.xml.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable/ic_round_up.xml"
     },
     {
         "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -64,27 +44,35 @@
         "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable_ic_service.xml.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable/ic_service.xml"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable-anydpi-v26/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable-anydpi-v26_ic_launcher_background.xml.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable-anydpi-v26/ic_launcher_background.xml"
     },
     {
         "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/drawable_gorjeta.png.flat",
         "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/drawable/gorjeta.png"
+    },
+    {
+        "merged": "/home/mateus/AndroidStudioProjects/YourTip/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/mateus/AndroidStudioProjects/YourTip/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

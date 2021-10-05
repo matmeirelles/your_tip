@@ -8,4 +8,6 @@
     <string name="round_up_tip">Arredondar gorjeta para cima?</string>
     <string name="calculate_tip">Calcular gorjeta</string>
     <string name="tip_amount">Valor da gorjeta: %1s</string>
+    <string name="hand_receiving_coins">Ícone de mão recebendo 3 moedas</string>
+    <string name="cost_of_service_label">Custo do serviço</string>
 </resources>
